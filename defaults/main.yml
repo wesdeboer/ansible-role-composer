@@ -20,5 +20,9 @@ composer_add_to_path: true
 composer_add_project_to_path: false
 #composer_project_path: /path/to/project/vendor/bin
 
+composer_os_path_config_directory: {
+  MacOSX: /etc/paths.d
+}
+
 # GitHub OAuth token (used to help overcome API rate limits).
 composer_github_oauth_token: ''
